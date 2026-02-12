@@ -1,6 +1,7 @@
 <?php
+namespace App;
 
-Class DBConnect
+abstract class DBConnect
 {
     function getPDO()
     {
